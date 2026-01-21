@@ -3,13 +3,13 @@
 A machine learning–based weather forecasting system built using historical NOAA weather station observations from **Pontiac Oakland County International Airport, Michigan (USA)**.  
 The project predicts:
 
-- ✅ **Next-day / 7-day maximum temperature (TMAX)** using regression models  
-- ✅ **Rain probability (%)** using classification models  
-- ✅ Deployed as an interactive **Streamlit web application**
+-  **Next-day / 7-day maximum temperature (TMAX)** using regression models  
+-  **Rain probability (%)** using classification models  
+-  Deployed as an interactive **Streamlit web application**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Weather directly affects daily life decisions such as travel planning, event scheduling, and outdoor activities. This project demonstrates a complete machine learning pipeline that transforms historical station data into a real forecasting solution.
 
@@ -33,16 +33,11 @@ Weather directly affects daily life decisions such as travel planning, event sch
 
 ---
 
-## 🗂️ Repository Structure
+##  Machine Learning Models
 
-
----
-
-## 📊 Machine Learning Models
-
-### 🌡️ Temperature Prediction (Regression)
+###  Temperature Prediction (Regression)
 - Linear Regression (baseline)
-- Random Forest Regressor ✅ (best)
+- Random Forest Regressor  (best)
 - Gradient Boosting Regressor
 
 Evaluation Metrics:
@@ -60,15 +55,15 @@ Rain label definition:
 
 ---
 
-## 🚀 Streamlit Application
+## Streamlit Application
 
 The deployed application provides:
 
-✅ Sidebar input controls  
-✅ 7-day forecast weather cards  
-✅ Rain probability progress bar  
-✅ Interactive chart (temperature + rain chance)  
-✅ Raw data transparency tab  
+Sidebar input controls  
+7-day forecast weather cards  
+Rain probability progress bar  
+Interactive chart (temperature + rain chance)  
+Raw data transparency tab  
 
 ### Run the Streamlit App:
 ```bash
